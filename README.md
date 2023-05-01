@@ -422,6 +422,12 @@ ros2 service call /package <parameter>
 ## ROS Interfaces
 - Link: https://docs.ros.org/en/humble/Concepts/About-ROS-Interfaces.html
 
+## ROS1 Cheat Sheet
+- Link: https://mirror.umd.edu/roswiki/attachments/de/ROScheatsheet.pdf
+- Link: https://www.generationrobots.com/media/ROS_Cheat_Sheet_Melodic.pdf
+- Link: https://w3.cs.jmu.edu/spragunr/CS354_S19/handouts/ROSCheatsheet.pdf
+- Link: https://kapeli.com/cheat_sheets/ROS.docset/Contents/Resources/Documents/index
+
 
 # GitHub
 ## Add SSH to your Computer for Accessing GitHub
