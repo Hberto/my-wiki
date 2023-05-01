@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[0.031s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.201s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.212s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.268s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.271s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.279s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.314s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.509s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.945s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.038s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.038s] -- Configured cppcheck include dirs: 
+[1.038s] -- Configured cppcheck exclude dirs and/or files: 
+[1.039s] -- Added test 'lint_cmake' to check CMake code style
+[1.040s] -- Added test 'uncrustify' to check C / C++ code style
+[1.040s] -- Configured uncrustify additional arguments: 
+[1.041s] -- Added test 'xmllint' to check XML markup files
+[1.043s] -- Configuring done
+[1.059s] -- Generating done
+[1.061s] -- Build files have been written to: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[1.070s] Invoked command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/src/udemy_ros2_pkg -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg
+[1.073s] Invoking command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j8 -l8
+[1.127s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[1.155s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[9.235s] [100%] [32m[1mLinking CXX executable publisher[0m
+[9.484s] [100%] Built target publisher
+[9.497s] Invoked command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg -- -j8 -l8
+[9.541s] Invoking command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg
+[9.553s] -- Install configuration: "RelWithDebInfo"
+[9.553s] -- Execute custom install script
+[9.554s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher
+[9.554s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[9.555s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[9.555s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[9.555s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[9.556s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[9.556s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[9.556s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[9.556s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[9.557s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[9.557s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[9.557s] -- Symlinking: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[9.569s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[9.569s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[9.570s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[9.570s] -- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[9.573s] Invoked command in '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg

@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000587] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000686] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000740] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.012254] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.020499] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.022857] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.022982] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'ubuntu'), ('LC_TIME', 'C.UTF-8'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/126/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/126/usr/share/code/code'), ('MANAGERPID', '1991'), ('SYSTEMD_EXEC_PID', '2575'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2553,unix/ubuntu:/tmp/.ICE-unix/2553'), ('GTK_EXE_PREFIX', '/snap/code/126/usr'), ('INVOCATION_ID', 'e94b54870e714a56a9649c6732573276'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'C.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/126/usr/lib/locale'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'C.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/999/vscode-git-a3e758ea92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/126/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/126/.local/share:/home/ubuntu/snap/code/126:/snap/code/126/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.034434] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.035168] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.035766] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'ubuntu'), ('LC_TIME', 'C.UTF-8'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/126/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/126/usr/share/code/code'), ('MANAGERPID', '1991'), ('SYSTEMD_EXEC_PID', '2575'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2553,unix/ubuntu:/tmp/.ICE-unix/2553'), ('GTK_EXE_PREFIX', '/snap/code/126/usr'), ('INVOCATION_ID', 'e94b54870e714a56a9649c6732573276'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'C.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/126/usr/lib/locale'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'C.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/999/vscode-git-a3e758ea92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/126/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/126/.local/share:/home/ubuntu/snap/code/126:/snap/code/126/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.099486] (-) TimerEvent: {}
+[0.118058] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 25%] Built target publisher\n'}
+[0.120072] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/calc_speed.dir/src/calc_speed.cpp.o\x1b[0m\n'}
+[0.120289] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 62%] Built target subscriber\n'}
+[0.125422] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 87%] Built target rpm_publisher\n'}
+[0.131098] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[0.166225] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[0.180242] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.199595] (-) TimerEvent: {}
+[0.233189] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[0.244049] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros'], 'cwd': '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'ubuntu'), ('LC_TIME', 'C.UTF-8'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/126/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/126/usr/share/code/code'), ('MANAGERPID', '1991'), ('SYSTEMD_EXEC_PID', '2575'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2553,unix/ubuntu:/tmp/.ICE-unix/2553'), ('GTK_EXE_PREFIX', '/snap/code/126/usr'), ('INVOCATION_ID', 'e94b54870e714a56a9649c6732573276'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'C.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/126/usr/lib/locale'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'C.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/999/vscode-git-a3e758ea92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/126/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/rplidar_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/126/.local/share:/home/ubuntu/snap/code/126:/snap/code/126/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.252539] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.253187] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.253749] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[0.254573] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[0.254849] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[0.255106] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[0.255576] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[0.255778] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[0.255946] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[0.256172] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[0.256439] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[0.256699] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[0.257209] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[0.257777] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[0.258326] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[0.258612] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/include/visibility.h\n'}
+[0.259253] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[0.259649] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[0.260044] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[0.260397] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[0.260705] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[0.261056] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[0.261356] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[0.261672] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[0.261992] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[0.262301] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[0.262614] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[0.262821] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[0.272419] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[0.273441] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[0.273601] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.273705] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.273823] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[0.274095] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[0.274394] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[0.276998] (rplidar_ros) CommandEnded: {'returncode': 0}
+[0.299711] (-) TimerEvent: {}
+[0.376999] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[0.399827] (-) TimerEvent: {}
+[0.500168] (-) TimerEvent: {}
+[0.600443] (-) TimerEvent: {}
+[0.700778] (-) TimerEvent: {}
+[0.801122] (-) TimerEvent: {}
+[0.901720] (-) TimerEvent: {}
+[1.002031] (-) TimerEvent: {}
+[1.102379] (-) TimerEvent: {}
+[1.202762] (-) TimerEvent: {}
+[1.303112] (-) TimerEvent: {}
+[1.403430] (-) TimerEvent: {}
+[1.503738] (-) TimerEvent: {}
+[1.604042] (-) TimerEvent: {}
+[1.704353] (-) TimerEvent: {}
+[1.804663] (-) TimerEvent: {}
+[1.904913] (-) TimerEvent: {}
+[2.005217] (-) TimerEvent: {}
+[2.105584] (-) TimerEvent: {}
+[2.205959] (-) TimerEvent: {}
+[2.306326] (-) TimerEvent: {}
+[2.406741] (-) TimerEvent: {}
+[2.507102] (-) TimerEvent: {}
+[2.607431] (-) TimerEvent: {}
+[2.707782] (-) TimerEvent: {}
+[2.808078] (-) TimerEvent: {}
+[2.908438] (-) TimerEvent: {}
+[3.008780] (-) TimerEvent: {}
+[3.109228] (-) TimerEvent: {}
+[3.209597] (-) TimerEvent: {}
+[3.309938] (-) TimerEvent: {}
+[3.410283] (-) TimerEvent: {}
+[3.510566] (-) TimerEvent: {}
+[3.610872] (-) TimerEvent: {}
+[3.711204] (-) TimerEvent: {}
+[3.811555] (-) TimerEvent: {}
+[3.911839] (-) TimerEvent: {}
+[4.012203] (-) TimerEvent: {}
+[4.112526] (-) TimerEvent: {}
+[4.212891] (-) TimerEvent: {}
+[4.313239] (-) TimerEvent: {}
+[4.413586] (-) TimerEvent: {}
+[4.513897] (-) TimerEvent: {}
+[4.614216] (-) TimerEvent: {}
+[4.714530] (-) TimerEvent: {}
+[4.814848] (-) TimerEvent: {}
+[4.915172] (-) TimerEvent: {}
+[5.015488] (-) TimerEvent: {}
+[5.115816] (-) TimerEvent: {}
+[5.216133] (-) TimerEvent: {}
+[5.316433] (-) TimerEvent: {}
+[5.416779] (-) TimerEvent: {}
+[5.517090] (-) TimerEvent: {}
+[5.617491] (-) TimerEvent: {}
+[5.717801] (-) TimerEvent: {}
+[5.818099] (-) TimerEvent: {}
+[5.918461] (-) TimerEvent: {}
+[6.018738] (-) TimerEvent: {}
+[6.119119] (-) TimerEvent: {}
+[6.219411] (-) TimerEvent: {}
+[6.319713] (-) TimerEvent: {}
+[6.420024] (-) TimerEvent: {}
+[6.520322] (-) TimerEvent: {}
+[6.620594] (-) TimerEvent: {}
+[6.720893] (-) TimerEvent: {}
+[6.821192] (-) TimerEvent: {}
+[6.921536] (-) TimerEvent: {}
+[7.021875] (-) TimerEvent: {}
+[7.122248] (-) TimerEvent: {}
+[7.222639] (-) TimerEvent: {}
+[7.323016] (-) TimerEvent: {}
+[7.423402] (-) TimerEvent: {}
+[7.523825] (-) TimerEvent: {}
+[7.624236] (-) TimerEvent: {}
+[7.724654] (-) TimerEvent: {}
+[7.825147] (-) TimerEvent: {}
+[7.925607] (-) TimerEvent: {}
+[8.025993] (-) TimerEvent: {}
+[8.126392] (-) TimerEvent: {}
+[8.226799] (-) TimerEvent: {}
+[8.327220] (-) TimerEvent: {}
+[8.427593] (-) TimerEvent: {}
+[8.527939] (-) TimerEvent: {}
+[8.628283] (-) TimerEvent: {}
+[8.728613] (-) TimerEvent: {}
+[8.828963] (-) TimerEvent: {}
+[8.929291] (-) TimerEvent: {}
+[9.029635] (-) TimerEvent: {}
+[9.129952] (-) TimerEvent: {}
+[9.230266] (-) TimerEvent: {}
+[9.330577] (-) TimerEvent: {}
+[9.430880] (-) TimerEvent: {}
+[9.531195] (-) TimerEvent: {}
+[9.631516] (-) TimerEvent: {}
+[9.731827] (-) TimerEvent: {}
+[9.832140] (-) TimerEvent: {}
+[9.932425] (-) TimerEvent: {}
+[10.032747] (-) TimerEvent: {}
+[10.133139] (-) TimerEvent: {}
+[10.233509] (-) TimerEvent: {}
+[10.333895] (-) TimerEvent: {}
+[10.434281] (-) TimerEvent: {}
+[10.534616] (-) TimerEvent: {}
+[10.634948] (-) TimerEvent: {}
+[10.735285] (-) TimerEvent: {}
+[10.835575] (-) TimerEvent: {}
+[10.935896] (-) TimerEvent: {}
+[11.036214] (-) TimerEvent: {}
+[11.136543] (-) TimerEvent: {}
+[11.236841] (-) TimerEvent: {}
+[11.337150] (-) TimerEvent: {}
+[11.437471] (-) TimerEvent: {}
+[11.537802] (-) TimerEvent: {}
+[11.638117] (-) TimerEvent: {}
+[11.738419] (-) TimerEvent: {}
+[11.838731] (-) TimerEvent: {}
+[11.939060] (-) TimerEvent: {}
+[12.039372] (-) TimerEvent: {}
+[12.139671] (-) TimerEvent: {}
+[12.239976] (-) TimerEvent: {}
+[12.340302] (-) TimerEvent: {}
+[12.440652] (-) TimerEvent: {}
+[12.541047] (-) TimerEvent: {}
+[12.641391] (-) TimerEvent: {}
+[12.741726] (-) TimerEvent: {}
+[12.842066] (-) TimerEvent: {}
+[12.942448] (-) TimerEvent: {}
+[13.042795] (-) TimerEvent: {}
+[13.143131] (-) TimerEvent: {}
+[13.243426] (-) TimerEvent: {}
+[13.343723] (-) TimerEvent: {}
+[13.444023] (-) TimerEvent: {}
+[13.544334] (-) TimerEvent: {}
+[13.644689] (-) TimerEvent: {}
+[13.744974] (-) TimerEvent: {}
+[13.845276] (-) TimerEvent: {}
+[13.945556] (-) TimerEvent: {}
+[14.045844] (-) TimerEvent: {}
+[14.146143] (-) TimerEvent: {}
+[14.246442] (-) TimerEvent: {}
+[14.346751] (-) TimerEvent: {}
+[14.447046] (-) TimerEvent: {}
+[14.547344] (-) TimerEvent: {}
+[14.647639] (-) TimerEvent: {}
+[14.747929] (-) TimerEvent: {}
+[14.848232] (-) TimerEvent: {}
+[14.948557] (-) TimerEvent: {}
+[15.048928] (-) TimerEvent: {}
+[15.149368] (-) TimerEvent: {}
+[15.249672] (-) TimerEvent: {}
+[15.349943] (-) TimerEvent: {}
+[15.450254] (-) TimerEvent: {}
+[15.550561] (-) TimerEvent: {}
+[15.650858] (-) TimerEvent: {}
+[15.751166] (-) TimerEvent: {}
+[15.851467] (-) TimerEvent: {}
+[15.951760] (-) TimerEvent: {}
+[16.052051] (-) TimerEvent: {}
+[16.152331] (-) TimerEvent: {}
+[16.252683] (-) TimerEvent: {}
+[16.353036] (-) TimerEvent: {}
+[16.453359] (-) TimerEvent: {}
+[16.553699] (-) TimerEvent: {}
+[16.654032] (-) TimerEvent: {}
+[16.754371] (-) TimerEvent: {}
+[16.854665] (-) TimerEvent: {}
+[16.954980] (-) TimerEvent: {}
+[17.055323] (-) TimerEvent: {}
+[17.155726] (-) TimerEvent: {}
+[17.256057] (-) TimerEvent: {}
+[17.356402] (-) TimerEvent: {}
+[17.456735] (-) TimerEvent: {}
+[17.557042] (-) TimerEvent: {}
+[17.657385] (-) TimerEvent: {}
+[17.757727] (-) TimerEvent: {}
+[17.858124] (-) TimerEvent: {}
+[17.958636] (-) TimerEvent: {}
+[18.059043] (-) TimerEvent: {}
+[18.159487] (-) TimerEvent: {}
+[18.259818] (-) TimerEvent: {}
+[18.336377] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable calc_speed\x1b[0m\n'}
+[18.359933] (-) TimerEvent: {}
+[18.460265] (-) TimerEvent: {}
+[18.560584] (-) TimerEvent: {}
+[18.660982] (-) TimerEvent: {}
+[18.709826] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target calc_speed\n'}
+[18.723079] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[18.761113] (-) TimerEvent: {}
+[18.766128] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[18.767382] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'], 'cwd': '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'de_DE:en'), ('USER', 'ubuntu'), ('LC_TIME', 'C.UTF-8'), ('GIO_MODULE_DIR', '/home/ubuntu/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/126/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/ubuntu/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/126/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/126/usr/share/code/code'), ('MANAGERPID', '1991'), ('SYSTEMD_EXEC_PID', '2575'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:33888'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2553,unix/ubuntu:/tmp/.ICE-unix/2553'), ('GTK_EXE_PREFIX', '/snap/code/126/usr'), ('INVOCATION_ID', 'e94b54870e714a56a9649c6732573276'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'C.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/126/usr/lib/locale'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'C.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/999/vscode-git-a3e758ea92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/ubuntu/snap/code/126/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/build/udemy_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/ubuntu/snap/code/126/.local/share:/home/ubuntu/snap/code/126:/snap/code/126/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('GTK_USE_PORTAL', '1'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg:/home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[18.779680] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[18.780508] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.781257] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher\n'}
+[18.781683] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber\n'}
+[18.782055] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_publisher\n'}
+[18.782395] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/calc_speed\n'}
+[18.783023] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_calc_speed_node.launch.py\n'}
+[18.795744] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py\n'}
+[18.796166] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[18.796591] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[18.796999] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[18.797381] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[18.797694] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[18.798091] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[18.798510] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[18.798917] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[18.799321] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[18.799704] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[18.799984] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[18.811323] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[18.811677] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[18.811956] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[18.812255] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/Desktop/learn/Workspaces/ros2_cpp_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[18.817475] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[18.861211] (-) TimerEvent: {}
+[18.892291] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[18.893188] (-) EventReactorShutdown: {}
