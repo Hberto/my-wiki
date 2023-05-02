@@ -197,7 +197,10 @@ $ ros2 node list
 ```shell
 # Flags setzen fürs Debuggen
 $ colcon build --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
+$ sudo apt install gdbserver
 $ ros2 run --prefix 'gdbserver localhost:3000' udemy_ros2_pkg publisher
+# Launch.json konfigurieren
+# Start Debugging klicken
 ```
 ## Launch File
 - Angabe des Debug Servers
@@ -398,11 +401,32 @@ ros2 run <package> service_server
 ros2 service call /package <parameter>
 ```
 
-
+# ROS Bags
+- Wiederabspielen von Daten für das Deployen und Testen
+```shell
+ros2 bag record
+# alle topics
+ros2 bag record -a
+# spezifische topics
+ros2 bag record /topic1 /topic2
+# mit Namen und alle Topics
+ros2 bag record -a -o test.bag
+# Sich Infos ausgeben lassen
+ros2 bag info test.bag/
+# Abspielen
+ros2 bag play -l test.bag/
+ros2 topic echo /topicname
+```
 
 -----------------------------
 
 # Docs
+
+## Debug in VSCode
+- Link: https://code.visualstudio.com/docs/editor/debugging
+
+## Ros Bags
+- Link: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html
 
 ## Launch File -> Node.py
 - Link: https://github.com/ros2/launch_ros/blob/humble/launch_ros/launch_ros/actions/node.py
