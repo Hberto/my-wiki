@@ -417,7 +417,20 @@ ros2 bag info test.bag/
 ros2 bag play -l test.bag/
 ros2 topic echo /topicname
 ```
+# Git
+## Befehle
+```shell
+# Get Features from other branch
+git fetch origin our-team #or
+git pull origin our-team
+```
 
+# Python
+## Modul: Dotenv
+- richtig installiern
+```shell
+python -m pip install python-dotenv
+```
 -----------------------------
 
 # Docs
