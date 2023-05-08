@@ -431,7 +431,124 @@ git pull origin our-team
 ```shell
 python -m pip install python-dotenv
 ```
+## Listen
+### Ein Item hinzufügen
+```python
+    list = []
+    list.append(item) # fügt am Ende zu
+    # gibt noch weitere möglichkeiten todo
+```
+
+
+## Numpy
+
+### Lineare Regression erstellen
+- Ein Beispiel
+```python
+import numpy as np
+
+# Beispiel Daten
+_balance = [10, 12, 15, 20, 18, 22, 24, 28, 26, 30, 32, 35, 38, 40]
+
+# Berechne die Steigung der linearen Regression
+trend = np.polyfit(range(len(_balance)), _balance, 1)[0]
+
+# Bestimme den Trend
+if trend > 0:
+    print("Es gibt einen positiven Trend.")
+elif trend < 0:
+    print("Es gibt einen negativen Trend.")
+else:
+    print("Es gibt keinen Trend.")
+```
+# Docker
+
+## Docker Image mit ROS1 Noetic und Ouster Driver
+- Beschreibung:
+   Dieses Dockerfile lädt das Ubuntu 20.04-Basisimage, fügt das ROS-Repository hinzu und installiert die ROS-Kernpakete und das ROS-Bridge-Paket für ROS 1. Anschließend wird das ROS-Setup-Skript ausgeführt und das Arbeitsverzeichnis auf /root gesetzt. Beim Starten des Containers wird standardmäßig eine Bash-Shell geöffnet.
+
+    Zunächst installieren wir die zusätzlichen Abhängigkeiten python3-rosinstall, python3-rosinstall-generator und python3-wstool. Dann erstellen wir den ROS-Workspace für das Ouster-ROS-Paket. Wir klonen das Beispiel-Repository ouster_example und das ROS-Paket ouster_ros in den src-Ordner des ROS-Workspaces und führen catkin_make aus, um den ROS-Workspace zu bauen.
+
+    Anschließend fügen wir die Quellcode-Setup-Skripte des ROS-Workspaces und des ROS-Installationsbereichs zum .bashrc hinzu, damit sie automatisch ausgeführt werden, wenn der Container gestartet wird.
+
+    Wenn das Dockerfile gebaut und das Docker-Image gestartet wird, sollte der Ouster-Lidar-Treiber im ROS-Workspace verfügbar sein. Du kannst den Treiber mit dem Befehl roslaunch ouster_ros os1.launch starten und die Lidardaten mit dem Befehl rostopic echo /os1_cloud_node/points anzeigen.
+
+```dockerfile
+# Basisimage definieren
+FROM ubuntu:20.04
+
+# Umgebungsvariablen setzen
+ENV DEBIAN_FRONTEND=noninteractive \
+    ROS_DISTRO=noetic \
+    ROS_VERSION=1 \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8
+
+# ROS-Repository hinzufügen und Pakete installieren
+RUN apt-get update && apt-get install -y \
+    gnupg2 \
+    curl \
+    && curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | apt-key add - \
+    && echo "deb http://packages.ros.org/ros/ubuntu focal main" > /etc/apt/sources.list.d/ros1-latest.list \
+    && apt-get update && apt-get install -y \
+    ros-${ROS_VERSION}-ros-core \
+    ros-${ROS_DISTRO}-rosbridge-suite \
+    python3-rosinstall python3-rosinstall-generator python3-wstool \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# ROS-Workspace für Ouster-ROS erstellen
+RUN mkdir -p /root/catkin_ws/src \
+    && cd /root/catkin_ws/src \
+    && git clone https://github.com/ouster-lidar/ouster_example.git \
+    && git clone https://github.com/ouster-lidar/ouster_ros.git \
+    && cd .. \
+    && /bin/bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash && catkin_make"
+
+# ROS-Setup-Skript ausführen
+RUN echo "source /root/catkin_ws/devel/setup.bash" >> /root/.bashrc \
+    && echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc
+
+# Arbeitsverzeichnis setzen
+WORKDIR /root
+
+# Standardbefehl beim Starten des Containers
+CMD ["/bin/bash"]
+```
+## Dockerbefehle
+### Build
+```shell
+$ docker build -t mein_ros1_noetic_image .
+```
+
+### run
+```shell
+$ docker run -it mein_ros1_noetic_image
+```
+
 -----------------------------
+
+
+# GitHub
+## Add SSH to your Computer for Accessing GitHub
+- Link: https://www.youtube.com/watch?v=wScfLiE1oTY
+### Wenn nicht, hier die Steps:
+```shell
+1. $ ls -al ~/.ssh
+# Lists the files in your .ssh directory, if they exist
+2. $ for key in ~/.ssh/id_*; do ssh-keygen -l -f "${key}"; done | uniq
+3. $ ssh-keygen -t ed25519 -C "your_email@example.com"
+4. $ cd ~/.ssh cat id_ed25519.pub 
+# Public Key kopieren
+5. # Github Acc SSH Key hinzufügen
+6. # Gehe zum Github Repo
+7. $ git remote -v
+8. # GitHub SSH URL kopieren
+9. $ git remote set-url origin <GitHub SSH URL>
+10. $ eval $(shh-agent)
+11. $ ssh-add -k ~/.ssh/id_ed25519
+12. $ git pull
+```
 
 # Docs
 
@@ -464,28 +581,6 @@ python -m pip install python-dotenv
 - Link: https://www.generationrobots.com/media/ROS_Cheat_Sheet_Melodic.pdf
 - Link: https://w3.cs.jmu.edu/spragunr/CS354_S19/handouts/ROSCheatsheet.pdf
 - Link: https://kapeli.com/cheat_sheets/ROS.docset/Contents/Resources/Documents/index
-
-
-# GitHub
-## Add SSH to your Computer for Accessing GitHub
-- Link: https://www.youtube.com/watch?v=wScfLiE1oTY
-### Wenn nicht, hier die Steps:
-```shell
-1. $ ls -al ~/.ssh
-# Lists the files in your .ssh directory, if they exist
-2. $ for key in ~/.ssh/id_*; do ssh-keygen -l -f "${key}"; done | uniq
-3. $ ssh-keygen -t ed25519 -C "your_email@example.com"
-4. $ cd ~/.ssh cat id_ed25519.pub 
-# Public Key kopieren
-5. # Github Acc SSH Key hinzufügen
-6. # Gehe zum Github Repo
-7. $ git remote -v
-8. # GitHub SSH URL kopieren
-9. $ git remote set-url origin <GitHub SSH URL>
-10. $ eval $(shh-agent)
-11. $ ssh-add -k ~/.ssh/id_ed25519
-12. $ git pull
-```
 
 
 
