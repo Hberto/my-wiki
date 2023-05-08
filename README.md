@@ -525,6 +525,26 @@ $ docker build -t mein_ros1_noetic_image .
 ```shell
 $ docker run -it mein_ros1_noetic_image
 ```
+# Sensoren
+
+## ouster1
+
+### Topics für eine Navigation:
+Für die Navigation in einer Umgebung mithilfe des Ouster-Lidars gibt es mehrere ROS-Topics, die verwendet werden können, um verschiedene Arten von Daten zu empfangen, wie beispielsweise 3D-Punktwolken, Odometrie, IMU-Informationen und Karteninformationen.
+
+Hier sind einige ROS-Topics, die für die Navigation mit dem Ouster-Lidar relevant sein können:
+
+- `/os1_cloud_node/points` (sensor_msgs/PointCloud2): Dieses Topic enthält die 3D-Punktwolke, die vom Lidar erfasst wurde. Dies kann verwendet werden, um eine Karte der Umgebung zu erstellen oder um Hindernisse im Pfad des Roboters zu erkennen.
+
+- `/os1_imu_node/imu_packets` (sensor_msgs/Imu): Dieses Topic enthält die IMU-Daten (Beschleunigung und Winkelgeschwindigkeit), die vom Ouster-Lidar erfasst wurden. Diese Daten können für die Lokalisierung des Roboters verwendet werden, indem sie zur Schätzung der Robotergeschwindigkeit und -position verwendet werden.
+
+- `/odom` (nav_msgs/Odometry): Dieses Topic enthält Odometriedaten (Geschwindigkeit und Position), die vom Roboter erfasst wurden. Diese Daten können für die Schätzung der Robotergeschwindigkeit und -position verwendet werden.
+
+- `/map` (nav_msgs/OccupancyGrid): Dieses Topic enthält eine Karte der Umgebung, die vom Roboter erstellt wurde. Die Karte kann verwendet werden, um den Roboterpfad zu planen und Hindernisse zu vermeiden.
+
+- `/cmd_vel` (geometry_msgs/Twist): Dieses Topic kann verwendet werden, um die Bewegung des Roboters zu steuern. Ein ROS-Node kann dieses Topic abonnieren und Steuerbefehle (z.B. lineare und Winkelgeschwindigkeiten) an den Roboter senden, um ihn zu bewegen.
+
+Es ist wichtig zu beachten, dass die Verwendung dieser Topics und die Implementierung der Navigation mit dem Ouster-Lidar von vielen Faktoren abhängt, wie der Roboterplattform, den gewünschten Navigationseigenschaften und der Umgebung. Eine detaillierte Implementierung hängt von den Anforderungen deines spezifischen Anwendungsfalls ab.
 
 -----------------------------
 
