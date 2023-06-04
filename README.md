@@ -76,23 +76,28 @@ colcon build
 
 
 ## Eigenen Workspace erstellen
-### C++
+### Package erstellen
 ```shell
 ros2 pkg create dein_name --build-type ament_cmake
 ```
 
-## Package List zeigen
+### Bestimmten Package bauen
+```shell
+colcon build --packages-select <package-name>
+```
+
+### Package List zeigen
 ```shell
 ros2 pkg list
 ```
 
-## Workspace bauen
+### Workspace bauen
 - Workspace Ordner
 ```shell
 colcon build
 ```
 
-## Eigenen Package sourcen
+### Eigenen Package sourcen
 - Im Install Ordner gibt es eine setup.bash die für unsere Umgebung sichtbar sein sollte
 ```shell
 source install/setup.bash
@@ -419,10 +424,19 @@ ros2 topic echo /topicname
 ```
 # Git
 ## Befehle
+### Features von einer anderen Branch
 ```shell
 # Get Features from other branch
 git fetch origin our-team #or
 git pull origin our-team
+```
+
+### Branch löschen
+```shell
+# Local delete
+git branch -d local_branch_name
+# Remote delete
+git push remote_name -d remote_branch_name # remote_name could be origin
 ```
 
 # Python
