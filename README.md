@@ -440,6 +440,11 @@ git push remote_name -d remote_branch_name # remote_name could be origin
 ```
 
 # Python
+
+## Env herausfinden
+```shell
+python -c "import sys; print(sys.prefix)"
+```
 ## Modul: Dotenv
 - richtig installiern
 ```shell
